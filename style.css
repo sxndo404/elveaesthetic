@@ -92,3 +92,10 @@ footer {
   margin-top: 10px;
   color: #7c5f4d;
 }
+.portrait {
+  width: 300px;
+  max-width: 80%;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
