@@ -1,0 +1,82 @@
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fdf6ee;
+  color: #5c4438;
+  text-align: center;
+}
+
+nav {
+  background-color: #f3e9dc;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.nav-links button {
+  background: none;
+  border: none;
+  color: #5c4438;
+  font-size: 1rem;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav-links button:hover {
+  text-decoration: underline;
+}
+
+section {
+  display: none;
+  padding: 40px 20px;
+}
+
+.active-section {
+  display: block;
+  animation: fadeIn 0.5s ease;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(92, 68, 56, 0.3);
+}
+
+.blog-entry {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fffaf5;
+  border-left: 4px solid #d6a77a;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 5px rgba(92, 68, 56, 0.1);
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f3e9dc;
+  color: #5c4438;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
